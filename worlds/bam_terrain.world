@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<sdf version='1.6'>
+  <world name='default'>
+    
+    <scene>
+      <sky>
+        <clouds>
+          <speed>12</speed>
+        </clouds>
+      </sky>
+    </scene>
+
+
+   <light type="directional" name="point">
+      <pose>-100 100 0 0 0 0</pose>
+      <diffuse>127 127 127 255</diffuse>
+      <specular>25 25 25 255</specular>
+      <attenuation>
+        <range>20</range>
+        <linear>0.2</linear>
+        <constant>0.8</constant>
+        <quadratic>0.01</quadratic>
+      </attenuation>
+      <cast_shadows>false</cast_shadows>
+   </light>
+
+   <light type="directional" name="point1">
+      <pose>100 100 0 0 0 0</pose>
+      <diffuse>127 127 127 255</diffuse>
+      <specular>25 25 25 255</specular>
+      <attenuation>
+        <range>20</range>
+        <linear>0.2</linear>
+        <constant>0.8</constant>
+        <quadratic>0.01</quadratic>
+      </attenuation>
+      <cast_shadows>false</cast_shadows>
+   </light>
+
+   <light type="directional" name="point2">
+      <pose>-100 -100 0 0 0 0</pose>
+      <diffuse>127 127 127 255</diffuse>
+      <specular>25 25 25 255</specular>
+      <attenuation>
+        <range>20</range>
+        <linear>0.2</linear>
+        <constant>0.8</constant>
+        <quadratic>0.01</quadratic>
+      </attenuation>
+      <cast_shadows>false</cast_shadows>
+   </light>
+
+   <light type="directional" name="point3">
+      <pose>100 -100 0 0 0 0</pose>
+      <diffuse>127 127 127 255</diffuse>
+      <specular>25 25 25 255</specular>
+      <attenuation>
+        <range>20</range>
+        <linear>0.2</linear>
+        <constant>0.8</constant>
+        <quadratic>0.01</quadratic>
+      </attenuation>
+      <cast_shadows>false</cast_shadows>
+   </light>
+
+   <light type="directional" name="point4">
+      <pose>0 0 0 0 0 0</pose>
+      <diffuse>127 127 127 255</diffuse>
+      <specular>25 25 25 255</specular>
+      <attenuation>
+        <range>20</range>
+        <linear>0.2</linear>
+        <constant>0.8</constant>
+        <quadratic>0.01</quadratic>
+      </attenuation>
+      <cast_shadows>false</cast_shadows>
+   </light>
+    <include>
+      <pose>0 0 0 0 0 0 </pose>
+      <uri>model://model/bamboo_with_wall</uri>
+    </include>
+
+    <include>
+      <pose> 0 -2 0 0 0 0  </pose>
+      <uri>model://model/road_to_water</uri>
+    </include>
+
+    <include>
+      <pose> 0 0 0 0 0 0 </pose>
+      <uri>model://model/nctu_road</uri>
+    </include>
+    <include>
+      <pose> 0 0 0 0 0 0  </pose>
+      <uri>model://model/sanbox_terrain_road</uri>
+    </include>
+
+    <include>
+      <pose> 2 0 0 0 0 0 </pose>
+      <uri>model://model/green_buoy</uri>
+    </include>
+
+    <include>
+      <pose>0 2 0 0 0 0  </pose>
+      <uri>model://model/red_buoy</uri>
+    </include>
+
+
+    <include>
+      <pose> 0 -2 0 0 0 0 </pose>
+      <uri>model://model/white_buoy</uri>
+    </include>
+
+
+
+    <include>
+      <pose> 0 4 0 0 0 0 </pose>
+      <uri>model://model/buoy_A3</uri>
+    </include>
+
+
+    <include>
+      <pose> 0 -4 0 0 0 0 </pose>
+      <uri>model://model/buoy_A5</uri>
+    </include>
+
+
+    <include>
+      <pose> 4 4 0 0 0 0 </pose>
+      <uri>model://model/buoy_A7</uri>
+    </include>
+
+    <include>
+      <pose> 0 0 -0.05 0 0 0.0 </pose>
+      <uri>model://model/bamboo_lake</uri>
+    </include>
+
+  </world>
+</sdf>
