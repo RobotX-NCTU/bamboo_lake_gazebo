@@ -114,11 +114,13 @@ link_directories( ${GAZEBO_LIBRARY_DIRS} )
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
+include
 ${GAZEBO_INCLUDE_DIRS}
-# include
-# ${catkin_INCLUDE_DIRS}
+# 
+${catkin_INCLUDE_DIRS}
 )
-
+add_library(Blink SHARED src/BlinkVisualPlugin.cc)
+target_link_libraries(Blink ${catkin_LIBRARIES}${GAZEBO_LIBRARIES})
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/bamboo_gazebo.cpp
@@ -196,5 +198,4 @@ list(APPEND CMAKE_CXX_FLAGS "${GAZEBO_CXX_FLAGS}")
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-add_library(Blink SHARED model/light_buoy/plugin/BlinkVisualPlugin.cc)
-target_link_libraries(Blink ${catkin_LIBRARIES}${GAZEBO_LIBRARIES})
+

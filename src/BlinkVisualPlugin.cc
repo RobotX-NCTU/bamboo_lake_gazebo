@@ -24,7 +24,7 @@
 #include <gazebo/msgs/msgs.hh>
 #include <gazebo/rendering/Visual.hh>
 #include <gazebo/transport/Node.hh>
-#include "BlinkVisualPlugin.hh"
+#include <bamboo_lake_gazebo/BlinkVisualPlugin.hh>
 
 namespace gazebo
 {

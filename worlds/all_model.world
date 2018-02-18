@@ -95,42 +95,42 @@
     </include>
 
     <include>
-      <pose> 2 0 0 0 0 0 </pose>
+      <pose> 4.57 0 0 0 0 0 </pose>
       <uri>model://model/green_buoy</uri>
     </include>
 
     <include>
-      <pose>0 2 0 0 0 0  </pose>
+      <pose>4.56 1.24 0 0 0 0  </pose>
       <uri>model://model/red_buoy</uri>
     </include>
 
 
     <include>
-      <pose> 0 -2 0 0 0 0 </pose>
+      <pose> 4.22 -0.9 0 0 0 0 </pose>
       <uri>model://model/white_buoy</uri>
     </include>
 
 
     <include>
-      <pose> 2 -2 0.3 0 0 0 </pose>
+      <pose> 4.55 -2 0.3 0 0 0 </pose>
       <uri>model://model/light_buoy</uri>
     </include>
 
 
     <include>
-      <pose> 0 4 0 0 0 0 </pose>
+      <pose> 3.88 -2.96 0 0 0 0 </pose>
       <uri>model://model/buoy_A3</uri>
     </include>
 
 
     <include>
-      <pose> 0 -4 0 0 0 0 </pose>
+      <pose> 3.42 -4 0 0 0 0 </pose>
       <uri>model://model/buoy_A5</uri>
     </include>
 
 
     <include>
-      <pose> 4 4 0 0 0 0 </pose>
+      <pose>3.57 -5.22 0 0 0 0 </pose>
       <uri>model://model/buoy_A7</uri>
     </include>
 
