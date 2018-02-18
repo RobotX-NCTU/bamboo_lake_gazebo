@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>bamboo_gazebo</name>
+  <name>bamboo_lake_gazebo</name>
   <version>0.0.0</version>
-  <description>The bamboo_gazebo package</description>
+  <description>The bamboo_lake_gazebo package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
