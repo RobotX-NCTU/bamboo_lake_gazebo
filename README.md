@@ -12,5 +12,6 @@ https://github.com/RobotX-NCTU/duckietown_robotx_gazebo
 ```
 roslaunch bamboo_lake_gazebo all_model.launch
 ```
-![](https://i.imgur.com/MZWql7G.jpg)
+![](https://i.imgur.com/oLhUigJ.jpg)  
+![](https://i.imgur.com/uwR3X6I.jpg)  
 >please run environment.sh first
