@@ -10,7 +10,10 @@
       </sky>
     </scene>
 
-
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!--
    <light type="directional" name="point">
       <pose>-100 100 0 0 0 0</pose>
       <diffuse>127 127 127 255</diffuse>
@@ -75,6 +78,7 @@
       </attenuation>
       <cast_shadows>false</cast_shadows>
    </light>
+ -->
     <include>
       <pose>0 0 0 0 0 0 </pose>
       <uri>model://model/bamboo_with_wall</uri>
